@@ -4,42 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1{
-            color: green;
-        }
-        div {
-            width: 600px;
-            height: 400px;
-            border-color: black;
-            border: 2px, 2px;
-            background-color: antiquewhite;
-        }
-    </style>
+    <link rel="stylesheet" href="syle.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <h2>Seguimos en la ruta</h2>
-    <div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Oceano</th>
-                    <th>Profundidad minima</th>
-                    <th>Profundidad maxima</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Oceano Pácifico</td>
-                    <td>4,280 m</td>
-                    <td>10,911 m</td>
-                    <td>Oceano Atlantico</td>
-                    <td>3,646 m</td>
-                    <td>8,486 m</td>
-                </tr>
-            </tbody>
-        </table>
+    <h1>Seguimos en la ruta</h1>
+    <div class="container">
+        <div class="tiles" id="div1">
+            <table id="table1">
+                <thead>
+                    <tr>
+                        <th>Oceano</th>
+                        <th>Profundidad minima</th>
+                        <th>Profundidad maxima</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Oceano Pácifico</td>
+                        <td>4,280 m</td>
+                        <td>10,911 m</td>
+                    </tr>
+                    <tr>
+                        <td>Oceano Atlantico</td>
+                        <td>3,646 m</td>
+                        <td>8,486 m</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tiles" id="div2">
+            <h1>Pruebas 1!</h1>
+            <div id="div3">
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                        <ul>
+                            <li>Sub-items a</li>
+                            <li>Sub-items b</li>
+                            <li>Sub-items c</li>
+                        </ul>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ol>
+            </div>
+        </div>
+        <div class="tiles" id="div4">
+            <h1>Pruebas 2!</h1>
+            <ul>
+                <li><a href="https://google.com">Google</a></li>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://clarin.com"></a>Clarin</li>
+            </ul>
+            <button id="btn1">Click me</button>
+        </div>
     </div>
 </body>
 </html>
