@@ -1,0 +1,80 @@
+@media (min-width: 600px) {
+    body {
+        background: linear-gradient(to bottom right, rgb(124, 112, 231), rgb(15, 41, 97));
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background: linear-gradient(to bottom right, rgb(34, 78, 26), rgb(133, 24, 91));
+    }
+}
+
+.container{
+    background: linear-gradient(to bottom right, rgb(44, 34, 139), rgb(77, 6, 17));
+    padding: 1em;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#table1{
+    border-color: black;
+    border-collapse: collapse;
+    width: 400px;
+    height: 200px;
+    padding: 4px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.tiles {
+    float: left;
+}
+
+
+#div1, #div2, #div4 {
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to bottom right, rgb(73, 66, 66), pink);
+    border: 2px solid green;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+#div3 {
+    width: 400px;
+    height: 150px;
+    border: 2px solid green;
+    margin: auto;
+    border-radius: 10px;
+}
+
+ul li {
+    color: blue;
+}
+
+#btn1 {
+    background-color: darkorange;
+    margin-left: 200px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    align-content: center;
+
+}
+
+#btn1:hover {
+    background-color: rgb(66, 105, 55);
+}
