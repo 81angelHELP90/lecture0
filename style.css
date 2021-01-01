@@ -1,26 +1,29 @@
 @media (min-width: 600px) {
     body {
-        background: linear-gradient(to bottom right, rgb(124, 112, 231), rgb(15, 41, 97));
+        background: linear-gradient(to bottom right, rgb(201, 227, 231), rgb(4, 114, 108));
     }
 }
 
 @media (max-width: 599px) {
     body {
-        background: linear-gradient(to bottom right, rgb(34, 78, 26), rgb(133, 24, 91));
+        background: linear-gradient(to bottom right, rgb(202, 216, 199), rgb(4, 75, 10));
     }
 }
 
 .container{
-    background: linear-gradient(to bottom right, rgb(44, 34, 139), rgb(77, 6, 17));
-    padding: 1em;
+    background: linear-gradient(to bottom right, rgb(78, 66, 192), rgb(248, 84, 109));
+    padding: 1%;
     overflow: hidden;
-    margin: 10px;
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 h1 {
     text-align: center;
     color: black;
+    margin-top: 5px;
 }
 
 #table1{
@@ -44,16 +47,16 @@ td, th {
 }
 
 
-#div1, #div2, #div4 {
+#div1, #div2, #div3, #div4 {
     width: 500px;
     height: 300px;
-    background: linear-gradient(to bottom right, rgb(73, 66, 66), pink);
+    background: linear-gradient(to bottom right, rgb(198, 226, 195), rgb(5, 150, 41));
     border: 2px solid green;
     margin: 40px;
     border-radius: 10px;
 }
 
-#div3 {
+#listas1 {
     width: 400px;
     height: 150px;
     border: 2px solid green;
@@ -66,15 +69,41 @@ ul li {
 }
 
 #btn1 {
-    background-color: darkorange;
+    background-color: rgb(197, 140, 18);
     margin-left: 200px;
     width: 100px;
     height: 40px;
     border-radius: 20px;
     align-content: center;
+    border: 2px solid black;
 
+}
+
+#img1 {
+    width: 400px;
+    height: 200px;
+    margin-top: 2px;
+    margin-left: 50px;
 }
 
 #btn1:hover {
     background-color: rgb(66, 105, 55);
+    width: 110px;
+    height: 42px;
+}
+
+#div1:hover {
+    background: linear-gradient(to bottom right, rgb(182, 200, 207), rgb(7, 134, 156));
+}
+
+#div2:hover {
+    background: linear-gradient(to bottom right, rgb(182, 200, 207), rgb(7, 134, 156));
+}
+
+#div3:hover {
+    background: linear-gradient(to bottom right, rgb(182, 200, 207), rgb(7, 134, 156));
+}
+
+#div4:hover {
+    background: linear-gradient(to bottom right, rgb(182, 200, 207), rgb(7, 134, 156));
 }
